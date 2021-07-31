@@ -50,7 +50,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new CleanWebpackPlugin(),
+        // new CleanWebpackPlugin(),
         new CopyWebpackPlugin({
             patterns: [
                 {

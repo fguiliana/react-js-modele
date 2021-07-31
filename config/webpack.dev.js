@@ -39,6 +39,7 @@ module.exports = merge(common,{
         ],
     },
     output: {
+        clean: true,
         publicPath: '/',
     },
     devServer: {
