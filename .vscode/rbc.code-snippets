@@ -1,0 +1,22 @@
+{
+	"rbc": {
+		"scope": "javascript,typescript",
+		"body": [
+			"// == Import npm",
+			"import React from 'react';",
+			"",
+			"// == Import local",
+			"",
+			"// == Composant",
+			"const Component = () => (",
+				"<div>",
+					"<h1>Component : MyComponent</h1>",
+				"</div>",
+			");",
+			"",
+			"// == Export",
+			"export default Component;",
+		],
+		"description": "Reactjs Casic Component"
+	}
+}
