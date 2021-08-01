@@ -2,15 +2,21 @@
 import React from 'react';
 
 // == Import
+import { AppWrapper, RotatingLogo } from 'src/styles/App';
 import reactLogo from './react-logo.svg';
-import './style.css';
 
 // == Composant
 const App = () => (
-  <div className="app">
-    <img src={reactLogo} alt="react logo" />
-    <h1>Composant : App</h1>
-  </div>
+  <AppWrapper>
+    <RotatingLogo src={reactLogo} alt="react logo" />
+    <h1>My Reactjs Modele</h1>
+    <p>You are currently on the App component.</p>
+    <div>
+      <p>React <span>{React.version}</span></p>
+      <p>Using Redux 4, Webpack 5, Babel 7</p>
+
+    </div>
+  </AppWrapper>
 );
 
 // == Export
